@@ -3,15 +3,17 @@ The Cryptocurrency Dashboard with Chatbot is a Python-based project that allows 
 
 Key Features:
 
-Data Loading and Preprocessing:
+#Data Loading and Preprocessing:
 
 The project utilizes data from various cryptocurrency pairs (e.g., EOS/USD, Bitcoin/USD) downloaded from cryptodatadownload.com.
 Data is loaded and preprocessed using Pandas to remove invalid entries and keep only relevant columns.
-RSI Calculation:
+
+#RSI Calculation:
 
 The project calculates the Relative Strength Index (RSI) for each cryptocurrency's closing prices using a customizable time window.
 RSI is a technical indicator that measures the momentum of price changes to identify overbought or oversold conditions.
-Cryptocurrency Dashboard:
+
+#Cryptocurrency Dashboard:
 
 The dashboard is built using Plotly and Matplotlib to provide an interactive and visually appealing interface.
 Users can select a cryptocurrency from the list to view its candlestick chart, price line, RSI graph, and 24-hour trading volume.
@@ -19,7 +21,8 @@ Candlestick charts display the open, high, low, and close prices for each date, 
 Price lines show the cryptocurrency's daily closing price over time, allowing users to track price fluctuations.
 RSI graphs plot the RSI values, helping users assess the cryptocurrency's momentum and potential trend reversals.
 Users can use dropdown menus to filter and explore data for specific time ranges (e.g., last year, last 2 months).
-Cryptocurrency Chatbot:
+
+#Cryptocurrency Chatbot:
 
 The chatbot prompts users to select a cryptocurrency from the provided list or exit the chatbot.
 Upon selecting a cryptocurrency, the chatbot displays basic information, such as the symbol, start date, and RSI time window.
